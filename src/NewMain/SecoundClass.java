@@ -17,7 +17,9 @@ public class SecoundClass extends FirstClass {
     }
     
     public static void main(String[] args) {
+        // Reference by FirstClass
 //        FirstClass obj = new SecoundClass();
+        // Reference by SecoundClass
         SecoundClass obj = new SecoundClass();
         obj.display1();
         obj.display2();
